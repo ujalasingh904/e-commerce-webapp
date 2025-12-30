@@ -1,7 +1,7 @@
 import Add from "@/src/components/Add"; 
 import CustomizeProducts from "@/src/components/CustomizeProducts";
 import ProductImages from "@/src/components/ProductImages";
-// import Reviews from "@/src/components/Reviews";
+import Reviews from "@/src/components/Reviews";
 import { wixClientServer } from "@/src/lib/wixClientServer";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
