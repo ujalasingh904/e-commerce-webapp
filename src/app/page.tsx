@@ -7,7 +7,7 @@ import Slider from "@/src/components/Slider";
 // import { WixClientContext } from "@/context/wixContext";
 import { useWixClient } from "@/src/hooks/useWixClient";
 // import { wixClientServer } from "@/lib/wixClientServer";
-import { Suspense, useContext, useEffect } from "react";
+import { Suspense  } from "react";
 
 const HomePage = async () => {
 
