@@ -1,4 +1,4 @@
-import { wixClientServer } from "@/lib/wixClientServer";
+import { wixClientServer } from "@/src/lib/wixClientServer";
 import Image from "next/image";
 import Link from "next/link";
 

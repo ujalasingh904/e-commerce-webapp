@@ -1,4 +1,4 @@
-import { wixClientServer } from "@/lib/wixClientServer";
+import { wixClientServer } from "@/src/lib/wixClientServer";
 import { products } from "@wix/stores";
 import Image from "next/image";
 import Link from "next/link";
@@ -85,9 +85,10 @@ const ProductList = async ({
                             dangerouslySetInnerHTML={{
                                 __html: DOMPurify.sanitize(
                                     product.additionalInfoSections.find(
-                                        (section: any) => section.title === "shortDesc"
+                                        // section.title === "name"  => section.description ,<- not sure about this
+                                        (section: any) => section.title === "shortDesc"  
                                     )?.description || ""
-                                ),
+                                ), 
                             }}
                         ></div>
                     )}

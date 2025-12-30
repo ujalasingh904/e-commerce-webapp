@@ -1,9 +1,9 @@
 'use client'
 import Image from "next/image";
-// import { useCartStore } from "@/hooks/useCartStore";
-// import { media as wixMedia } from "@wix/sdk";
-// import { useWixClient } from "@/hooks/useWixClient";
-// import { currentCart } from "@wix/ecom";
+import { useCartStore } from "@/src/hooks/useCartStore";
+import { media as wixMedia } from "@wix/sdk";
+import { useWixClient } from "@/src/hooks/useWixClient";
+import { currentCart } from "@wix/ecom";
 
 export default function CartModal() {
 
